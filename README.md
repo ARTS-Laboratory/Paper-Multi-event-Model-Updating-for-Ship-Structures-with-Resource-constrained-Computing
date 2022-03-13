@@ -26,6 +26,17 @@ The fatigue crack start in the center of the beam and grows toward each edge. Af
 </center>
 
 ## Code:
-For the particle swarm
+FEA
+
+For the particle swarm iteration # and particle #, an optimal combination was found to be 25 and 10 respectively. This was found by testing all combinations until a 40 iteration and 20 particle combination was achieved. The error between the returned global min and true gloabl min is computed and plotted with iteration # and particle #. This is shown in Figure 3. The chosen opotimal combination is at the beginning of the plateau since any combination after will return the same global min while taking more time and computational resources. 
+
+<center>
+
+![image](https://user-images.githubusercontent.com/69403619/158040465-5c020404-822a-47da-9fda-625bfa3443fa.png)
+      Figure 3. Particle Swarm optimal iteration and particle combination
+
+</center>
+
+
 
 ## Results:
