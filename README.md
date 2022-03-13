@@ -20,7 +20,7 @@ The fatigue crack start in the center of the beam and grows toward each edge. Af
 
 <center>
 
-![image](https://user-images.githubusercontent.com/69403619/158040100-71063dc5-e3c0-4d91-aad6-4f1e677487a1.png)
+![Search_Space](https://user-images.githubusercontent.com/69403619/158040135-99144c21-2f0f-4cb2-803a-42448c6bee4e.png)
       Figure 2. Flexibility error surface plot for the Particle Swarm
 
 </center>
