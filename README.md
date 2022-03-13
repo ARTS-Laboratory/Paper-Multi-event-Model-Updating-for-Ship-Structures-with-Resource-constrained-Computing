@@ -25,8 +25,17 @@ The fatigue crack start in the center of the beam and grows toward each edge. Af
 
 </center>
 
-## Code:
-To construct the FEA model and easily change any aspect of the model while using the least amount of computational resources, the model construction was recorded with the Macros option in Abaqus. This converts the user interface commands into code that the Abaqus solver uses to compute the chosen results. Once this code was saved to .txt file python was used to submit the model to the Abaqus solver with altered roller locations and fatigue crack length. Solving the altered models this way save computational resources since the model is solved without the user interface ever loading.  
+## Code FEA/Python:
+* Main goal: Construct the FEA model while using the least amount of computational resources
+* Transform completed model into code. 
+* Change model code. 
+* Submit changed model to Abaqus solver.
+* Create surface plot of altered models.
+* Run particle swarm on surface plot to determine global min.
+* Update FEA model
+* Automate the above steps
+
+To construct the FEA model and easily change any aspect of the model while using the least amount of computational resources, the model construction was simplified to a 2-D model and was recorded with the Macros option in Abaqus. This converts the user interface commands into code that the Abaqus solver uses to compute the chosen results. Once this code was saved to .txt file python was used to submit the model to the Abaqus solver with altered roller locations and fatigue crack length. Solving the altered models this way save computational resources since the model is solved without the user interface ever loading.  
 
 For the particle swarm iteration # and particle #, an optimal combination was found to be 25 and 10 respectively. This was found by testing all combinations until a 40 iteration and 20 particle combination was achieved. The error between the returned global min and true gloabl min is computed and plotted with iteration # and particle #. This is shown in Figure 3. The chosen optimal combination is at the beginning of the plateau since any combination after will return the same global min while taking more time and computational resources. 
 
