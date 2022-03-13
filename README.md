@@ -16,11 +16,12 @@ The FEA model is a “Smart Beam”, which is just a connection inside a ship. S
 
 </center>
 
-The fatigue crack start in the center of the beam and grows toward each edge, this is shown in Figure 2. After the model is created, the difference in the true and trial Flexibility matricies is taken and plotted with its crack length and roller location to create a 3-D surface plot for the particle swarm to run on (Figure 3).
+The fatigue crack start in the center of the beam and grows toward each edge. After the model is created, the difference in the true and trial Flexibility matricies is taken and plotted with its crack length and roller location to create a 3-D surface plot for the particle swarm to run on (Figure 2).
 
 <center>
 
-![image](https://user-images.githubusercontent.com/69403619/158040055-433e7a79-ebe8-4251-89f5-f99daaaca7f1.png)
+![image](https://user-images.githubusercontent.com/69403619/158040100-71063dc5-e3c0-4d91-aad6-4f1e677487a1.png)
+      Figure 2. Flexibility error surface plot for the Particle Swarm
 
 </center>
 
