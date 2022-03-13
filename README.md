@@ -49,10 +49,11 @@ For the particle swarm iteration # and particle #, an optimal combination was fo
 
 
 ## Results:
-
+The Particle Swarm results for each tested combination is presented in Figure 4. Here its easy to see that the chosen optimal combination preforms the best with very little error compared to the true locations. Moreover the optimal Particle Swarm combination returns the surface plot global min almost every time and this coordinate is used as the best fit for the current FEA model. With this the model is updated and the boundary conditions are in the most optimal location for the current input conditions for the model.   
 <center>
 
 ![particle_swarm_results](https://user-images.githubusercontent.com/69403619/158043092-41041cae-7cb2-4ec7-9de0-c721f0902a46.png)
+      Figure 4. Particle Swarm optimal iteration and particle combination
 
 </center>
 
